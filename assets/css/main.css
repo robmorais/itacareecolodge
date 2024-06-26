@@ -2517,6 +2517,10 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
+		.carousel header {
+			text-align: center;
+		}
+
 		.carousel .forward, .carousel .backward {
 			position: absolute;
 			top: 50%;
