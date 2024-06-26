@@ -2414,8 +2414,14 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-		#banner header > p {
+		#banner header p {
 			margin-bottom: 0;
+			width: 60%;
+			margin: 24px auto;
+		}
+
+		#banner header h2 {
+			margin-bottom: 30px;
 		}
 
 /* Content */
@@ -2606,13 +2612,29 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			.carousel article .image {
+			/* .carousel article .image {
 				position: relative;
 				left: -1em;
 				top: 0;
 				width: auto;
 				margin-right: -2em;
 				margin-bottom: 3em;
+			} */
+
+			.carousel article .image {
+				position: relative;
+				left: -1em;
+				top: 0;
+				width: 360px; /* Alterado de auto para 360px */
+				height: 250px; /* Adicionada esta linha */
+				margin-right: -2em;
+				margin-bottom: 3em;
+			}
+			
+			.carousel article .image img {
+					width: 100%; /* Garante que a imagem ocupe toda a área do container .image */
+					height: 100%; /* Garante que a imagem ocupe toda a área do container .image */
+					object-fit: cover; /* Garante que a imagem mantenha o aspecto e preencha o container */
 			}
 
 			.carousel article p {
