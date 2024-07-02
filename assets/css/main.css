@@ -3203,7 +3203,7 @@ input, select, textarea {
 		/* Carousel */
 
 			.carousel {
-				padding: 0.5em 0 0.5em 0;
+				padding: 0.5em 0 1.5em 0;
 			}
 
 				.carousel .reel {
@@ -3211,13 +3211,14 @@ input, select, textarea {
 				}
 
 				.carousel article {
-					width: 14em;
+					width: 17em;
 					padding-bottom: 2em;
 					margin: 0 0.5em 0 0;
 				}
 
 					.carousel article .image {
 						margin-bottom: 2em;
+						width: 17em;
 					}
 
 	}
