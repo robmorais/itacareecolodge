@@ -2071,6 +2071,45 @@ input, select, textarea {
 		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 	}
 
+
+		/* Airbnb Button */
+		.button.airbnb {
+			background: #FF5A5F; /* Airbnb's color */
+			display: flex;
+   		align-items: center;
+    	/* justify-content: center; */
+			justify-content: left;
+			font-size: 22px;
+			min-width: 240px;
+			font-weight: 500;
+		}
+
+		.button.airbnb:hover {
+			background: #E5484D;
+		}
+
+		/* Booking Button */
+		.button.booking {
+			background: #003580; /* Booking's color */
+			display: flex;
+   		align-items: center;
+    	/* justify-content: center; */
+			justify-content: left;
+			font-size: 22px;
+			min-width: 240px;
+			font-weight: 500;
+		}
+
+		.button.booking:hover {
+			background: #002960;
+		}
+
+		.button .button-icon {
+			width: 22px; /* Adjust the size as needed */
+			height: auto;
+			margin-right: 12px; /* Space between icon and text */
+		}
+
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
@@ -2220,7 +2259,15 @@ input, select, textarea {
 				color: inherit;
 			}
 
-		#header .button {
+			#header .cta-block {
+				display: flex;
+				gap: 20px;
+				margin-top: 2em;
+				flex-direction: row;
+				justify-content: center; /* Center the buttons horizontally */
+		}
+
+		/* #header .button {
 			display: inline-block;
 			border-radius: 100%;
 			width: 4.5em;
@@ -2229,7 +2276,7 @@ input, select, textarea {
 			text-align: center;
 			font-size: 1.25em;
 			padding: 0;
-		}
+		} */
 
 		#header hr {
 			top: 1.5em;
@@ -2414,14 +2461,15 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-		#banner header p {
+		#banner header h2 {
+			margin-bottom: 30px;
+		}
+
+		#banner p {
 			margin-bottom: 0;
 			width: 60%;
 			margin: 24px auto;
-		}
-
-		#banner header h2 {
-			margin-bottom: 30px;
+			text-align: justify;
 		}
 
 /* Content */
@@ -2518,6 +2566,7 @@ input, select, textarea {
 	}
 
 		.carousel header {
+			margin-top: 1em;
 			text-align: center;
 		}
 
@@ -2868,7 +2917,7 @@ input, select, textarea {
 				}
 
 		/* Button */
-
+/* 
 			input[type="button"],
 			input[type="submit"],
 			input[type="reset"],
@@ -2878,7 +2927,8 @@ input, select, textarea {
 				padding: 0;
 				line-height: 3em;
 				width: 100%;
-			}
+			} */
+
 
 		/* Nav */
 
@@ -3096,6 +3146,11 @@ input, select, textarea {
 					margin-bottom: 2.5em;
 				}
 
+				#header .cta-block {
+					flex-direction: column;
+					align-items: center; /* Center the buttons vertically */
+				}
+
 			body.homepage #header {
 				min-height: 0;
 				padding: 5.5em 0 5em 0;
@@ -3120,6 +3175,10 @@ input, select, textarea {
 
 			#banner {
 				padding: 3em 2em 3em 2em;
+			}
+
+			#banner p {
+				width: 90%;
 			}
 
 		/* Sidebar */
