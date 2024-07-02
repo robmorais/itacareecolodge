@@ -2694,6 +2694,36 @@ input, select, textarea {
 				text-align: center;
 			}
 
+/* Location Section */
+	#como-chegar {
+		background: #fff;
+		padding: 3em 0;
+		text-align: center;
+	}
+
+	#como-chegar header h2 {
+		font-size: 2.5em;
+		margin-bottom: 1em;
+	}
+
+	#como-chegar header p {
+		font-size: 1.2em;
+		margin-bottom: 2em;
+	}
+
+	.map-container {
+		display: flex;
+		justify-content: center;
+		margin-top: 2em;
+	}
+
+	.map-container iframe {
+		width: 100%;
+		/* max-width: 600px; */
+		height: 550px; 
+		border: none;
+	}
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
