@@ -2709,6 +2709,7 @@ input, select, textarea {
 	#como-chegar header p {
 		font-size: 1.2em;
 		margin-bottom: 2em;
+		padding: 0 0.5em;
 	}
 
 	.map-container {
@@ -2825,10 +2826,15 @@ input, select, textarea {
 				padding: 4em 2em 4em 2em;
 			}
 
+		/* Como Chegar */
+		#como-chegar {
+			padding: 1.5em 0;
+		}
+
 		/* Carousel */
 
 			.carousel {
-				padding: 1.25em 0 1.25em 0;
+				padding: 1em 0 2em 0;
 			}
 
 				.carousel article {
