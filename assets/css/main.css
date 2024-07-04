@@ -2697,7 +2697,7 @@ input, select, textarea {
 /* Location Section */
 	#como-chegar {
 		background: #fff;
-		padding: 3em 0;
+		/* padding: 3em 0; */
 		text-align: center;
 	}
 
@@ -2827,9 +2827,9 @@ input, select, textarea {
 			}
 
 		/* Como Chegar */
-		#como-chegar {
+		/* #como-chegar {
 			padding: 1.5em 0;
-		}
+		} */
 
 		/* Carousel */
 
