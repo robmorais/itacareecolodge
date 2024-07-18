@@ -2241,7 +2241,11 @@ input, select, textarea {
 		}
 
 		#header header {
-			display: inline-block;
+			/* display: inline-block; */
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+    		height: 80vh;
 		}
 
 			#header header > p {
@@ -2293,9 +2297,18 @@ input, select, textarea {
 			margin: 1em 0 0 0;
 		}
 
+		.centered-image {
+			display: block;
+			margin-right: 5.2em;
+			margin-bottom: 2.8em;
+			height: 28em; /* Fixed height */
+			object-fit: cover; /* Ensure the image covers the whole area */
+	}
+	
+
 	body.homepage #header {
 		height: 100vh;
-		min-height: 40em;
+		min-height: 50em;
 	}
 
 		body.homepage #header h1 {
