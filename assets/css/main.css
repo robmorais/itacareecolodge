@@ -2303,7 +2303,7 @@ input, select, textarea {
 			margin-bottom: 2.8em;
 			height: 28em; /* Fixed height */
 			object-fit: cover; /* Ensure the image covers the whole area */
-	}
+		}
 	
 
 	body.homepage #header {
@@ -2730,6 +2730,12 @@ input, select, textarea {
 		justify-content: center;
 		margin-top: 2em;
 	}
+
+	.map-container img {
+		display: block;
+		height: 500px; /* Fixed height */
+		object-fit:contain; /* Ensure the image covers the whole area */
+}
 
 	.map-container iframe {
 		width: 100%;
