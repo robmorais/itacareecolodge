@@ -2297,7 +2297,7 @@ input, select, textarea {
 			margin: 1em 0 0 0;
 		}
 
-		.centered-image {
+		.main-logo {
 			display: block;
 			margin-right: 5.2em;
 			margin-bottom: 2.8em;
@@ -2735,7 +2735,7 @@ input, select, textarea {
 		display: block;
 		height: 500px; /* Fixed height */
 		object-fit:contain; /* Ensure the image covers the whole area */
-}
+	}
 
 	.map-container iframe {
 		width: 100%;
@@ -2940,6 +2940,21 @@ input, select, textarea {
 
 			.image.centered {
 				margin: 0 0 1em 0;
+			}
+
+			.main-logo {
+				margin-right: 2em;
+				margin-bottom: 0em;
+				height: 12em;
+			}
+
+			.map-container a {
+				width: 100%;
+			}
+
+			.map-container img {
+				height: auto;
+				width: 100%;
 			}
 
 		/* Actions */
