@@ -2105,10 +2105,31 @@ input, select, textarea {
 			background: #002960;
 		}
 
+		/* WhatsApp Button */
+		.button.whatsapp {
+			background: #25D366; /* or #20ba5a; */
+			display: flex;
+			align-items: center;
+			justify-content: left;
+			font-size: 22px;
+			min-width: 240px;
+			width: 240px;
+			font-weight: 500;
+			color: #fff;
+		}
+
+		.button.whatsapp:hover {
+			background: #1ebe57;
+		}
+
 		.button .button-icon {
-			width: 22px; /* Adjust the size as needed */
+			width: 22px;
 			height: auto;
 			margin-right: 12px; /* Space between icon and text */
+		}
+
+		.button.whatsapp .button-icon {
+			width: 32px;
 		}
 
 		input[type="button"]:hover,
