@@ -2077,11 +2077,10 @@ input, select, textarea {
 		.button.airbnb {
 			background: #FF5A5F; /* Airbnb's color */
 			display: flex;
-   		align-items: center;
-    	/* justify-content: center; */
-			justify-content: left;
+			align-items: center;
+			justify-content: center;
 			font-size: 22px;
-			min-width: 240px;
+			width: 240px;
 			font-weight: 500;
 		}
 
@@ -2093,11 +2092,10 @@ input, select, textarea {
 		.button.booking {
 			background: #003580; /* Booking's color */
 			display: flex;
-   		align-items: center;
-    	/* justify-content: center; */
-			justify-content: left;
+			align-items: center;
+			justify-content: center;
 			font-size: 22px;
-			min-width: 240px;
+			width: 240px;
 			font-weight: 500;
 		}
 
@@ -2110,9 +2108,8 @@ input, select, textarea {
 			background: #25D366; /* or #20ba5a; */
 			display: flex;
 			align-items: center;
-			justify-content: left;
+			justify-content: center;
 			font-size: 22px;
-			min-width: 240px;
 			width: 240px;
 			font-weight: 500;
 			color: #fff;
