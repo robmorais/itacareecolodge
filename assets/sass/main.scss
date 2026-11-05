@@ -995,6 +995,51 @@
 		}
 	}
 
+/* Partner strip */
+
+	.partner-strip {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 1em 3em;
+		/* Cancels the 2em bottom margin of the .wrapper above, so the strip sits flush against it. */
+		margin: -2em 0 0 0;
+		padding: 2.5em 1em 2.5em 1em;
+		background: #c8dbc8;
+		color: #2b252c;
+
+		h3 {
+			color: #2b252c;
+			margin: 0;
+		}
+
+		p {
+			margin: 0;
+			text-align: inherit;
+			text-wrap: balance;
+		}
+
+		.button {
+			flex-shrink: 0;
+			background: #2b252c;
+			font-weight: 400;
+
+			&:hover {
+				background: #4a404c;
+			}
+
+			&:focus-visible {
+				outline: solid 2px #2b252c;
+				outline-offset: 3px;
+			}
+		}
+
+		@include breakpoint('<=mobile') {
+			flex-direction: column;
+			text-align: center;
+		}
+	}
+
 /* Footer */
 
 	#footer {
