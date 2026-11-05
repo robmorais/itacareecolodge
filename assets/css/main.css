@@ -2950,6 +2950,25 @@ input, select, textarea {
 
 	}
 
+/* Narrower only: the 3 hero buttons and the nav must fit in one row before they stack at mobile. */
+
+	@media screen and (min-width: 737px) and (max-width: 840px) {
+
+		#header .cta-block .button {
+			width: 200px;
+			padding-left: 0.5em;
+			padding-right: 0.5em;
+		}
+
+		#nav > ul > li {
+			margin-left: 0.25em;
+			margin-right: 0.25em;
+			padding-left: 0.6em;
+			padding-right: 0.6em;
+		}
+
+	}
+
 /* Mobile */
 
 	#navPanel, #titleBar {
