@@ -3398,3 +3398,45 @@ input, select, textarea {
 					}
 
 	}
+
+/* Short landscape viewports (laptops, phones on their side): fit the whole hero on one screen. */
+
+	@media screen and (max-height: 820px) and (orientation: landscape) {
+
+		body.homepage #header {
+			height: 100vh;
+			min-height: 0;
+			padding: 4.5em 0 1em 0;
+		}
+
+			body.homepage #header:before {
+				display: inline-block;
+			}
+
+		#header .inner {
+			padding-top: 0;
+		}
+
+		#header header {
+			height: calc(100vh - 5.5em);
+		}
+
+		#header .cta-block {
+			flex-direction: row;
+		}
+
+	}
+
+	@media screen and (max-height: 820px) and (max-width: 736px) and (orientation: landscape) {
+
+		#header .cta-block {
+			gap: 12px;
+		}
+
+		#header .cta-block .button {
+			width: 160px;
+			padding-left: 0.5em;
+			padding-right: 0.5em;
+		}
+
+	}
